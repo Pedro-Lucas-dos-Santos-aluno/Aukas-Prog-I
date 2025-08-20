@@ -5,4 +5,4 @@ int main() {
     char *p = frase + 4;
     printf("%s\n", p);
     return 0;
-}  
+}
