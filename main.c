@@ -1,5 +1,8 @@
 #include <stdio.h>
+
 int main() {
-    printf("Hello, World!\n");
+    char frase[] = "não gosto de programar em C";
+    char *p = frase + 4; // Pula "não "
+    printf("%s\n", p);
     return 0;
 }
