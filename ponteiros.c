@@ -1,5 +1,11 @@
 #include <stdio.h>
-int main() {
-    printf("ratos lou  cos\n");
+#include "ponteiros.h"
+int main()
+{
+    NewFunction();
     return 0;
+}
+void NewFunction()
+{
+    printf("ratos loucos \n");
 }
